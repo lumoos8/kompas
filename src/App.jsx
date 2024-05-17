@@ -1,16 +1,10 @@
-import { Outlet } from "react-router-dom";
 import styles from "./App.module.css";
-import Header from "./сomponents/Header/Header";
-import Footer from "./сomponents/Footer/Footer";
+import BusinessCard from "./сomponents/BusinessCard/BusinessCard";
 
 const App = () => {
   return (
     <div className={styles.container}>
-      <div>
-        <Header title="pomoZen" />
-        <Outlet />
-      </div>
-      <Footer />
+      <BusinessCard />
     </div>
   );
 };

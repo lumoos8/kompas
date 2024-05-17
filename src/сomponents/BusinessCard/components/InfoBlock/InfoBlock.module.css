@@ -1,0 +1,39 @@
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: Manrope, sans-serif;
+  letter-spacing: -0.01em;
+  margin: 0;
+  text-align: left;
+  z-index: 3;
+}
+
+.email {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20.49px;
+  margin: 0 0 0 0;
+}
+
+.phone {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19.12px;
+  margin: 0 0 0 0;
+}
+
+.link {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20.49px;
+  text-decoration: none;
+  margin: 16px 0 0 0;
+  letter-spacing: 0.3px;
+  color: white;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: gray;
+}

@@ -1,8 +1,7 @@
 .container {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #faf8f4;
+  font-family: Manrope, sans-serif, Verdana, Geneva, Tahoma;
+  background-color: #fff;
   display: flex;
+  align-item: center;
   flex-direction: column;
-  height: 100%;
-  overflow-y: auto;
 }
